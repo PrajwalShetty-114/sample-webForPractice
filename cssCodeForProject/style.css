@@ -1,0 +1,153 @@
+.logo {
+    height: 50px;
+}
+
+.image {
+    height: 200px;
+    float: left;
+}
+
+.card {
+    display: inline-block;
+    width: 40%;
+}
+
+.right {
+    float: right;
+}
+
+footer {
+    margin-top: 10%;
+    clear: both;
+    float: right;
+}
+
+.left>img {
+    height: 150px;
+    margin: 30px;
+    padding: 10px;
+    width: 200px;
+}
+
+.right>img {
+    height: 150px;
+    margin: 30px;
+    padding: 10px;
+    width: 200px;
+}
+
+.main>h1 {
+    text-align: left;
+    font-size: 3rem;
+}
+
+.target {
+    color: darkblue;
+
+}
+
+p {
+    text-align: justify;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+.card-title {
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-variation-settings: "wdth" 100;
+    font-size: 1.7rem;
+}
+
+footer>p {
+
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+
+}
+
+@media(max-width:600px) {
+    .logo {
+        height: 50px;
+    }
+
+    .image {
+        height: 200px;
+        float: left;
+    }
+
+    .card {
+        display: block;
+        width: 90%;
+    }
+
+    .right {
+        float: left;
+    }
+
+    footer {
+        margin-top: 10%;
+        clear: both;
+        float: right;
+    }
+
+    .left>img {
+        height: 150px;
+        margin: 30px;
+        margin-left: 0px;
+        padding: 10px;
+        width: 200px;
+    }
+
+    .right>img {
+        height: 150px;
+        margin: 30px;
+        margin-left: 0px;
+        padding: 10px;
+        width: 200px;
+    }
+
+    .main>h1 {
+        text-align: left;
+        font-size: 3rem;
+    }
+
+    .target {
+        color: darkblue;
+
+    }
+
+    p {
+        text-align: justify;
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-optical-sizing: auto;
+        font-weight: 550;
+        font-style: normal;
+    }
+
+    h1 {
+        font-family: "Playwrite AT", cursive;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .card-title {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-style: italic;
+        color: purple;
+    }
+
+    footer>p {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
